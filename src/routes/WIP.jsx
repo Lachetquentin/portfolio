@@ -13,12 +13,12 @@ const WIP = () => {
                   You can still check it or you can check the older version by clicking on the button right below !
               </p>
               <div className='group container rounded-md flex justify-center items-center mx-auto'>
-                  <a href="/old/">
+                  <a href="/portfolio/old/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 text-white group border-2 font-bold text-lg hover:bg-orange-600 hover:border-orange-600">
                       View old portfolio
                   </button>
                   </a>
-                  <Link to="/portfolio" smooth={true} duration={500}>
+                  <Link to="/home" smooth={true} duration={500}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 text-white group border-2 font-bold text-lg hover:bg-orange-600 hover:border-orange-600">
                       View new portfolio
                   </button>
