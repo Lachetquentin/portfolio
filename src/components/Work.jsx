@@ -11,6 +11,7 @@ import Arboretum from '../assets/Arboretum/arboretum.jpg'
 import WorkCard from './WorkCard'
 
 const Works = [{
+    id:1,
     name: 'Museo',
     imgUrl: `url(${Museo})`,
     url: '/museo',
@@ -18,13 +19,15 @@ const Works = [{
     web: false
 },
 {
+    id: 2,
     name: 'Eco Services',
     imgUrl: `url(${EcoServices})`,
     url: '/ecoservices',
     githubUrl: '/',
-    web: true
+    web: false // Can't be hosted on GH Pages etc.
 },
 {
+    id: 3,
     name: 'Movie Manager',
     imgUrl: `url(${MovieManager})`,
     url: '/',
@@ -32,6 +35,7 @@ const Works = [{
     web: true
 },
 {
+    id: 4,
     name: 'ttvRPG Bot',
     imgUrl: `url(${ttvRPGBot})`,
     url: '/',
@@ -39,13 +43,15 @@ const Works = [{
     web: false
 },
 {
+    id: 5,
     name: 'Job Board',
     imgUrl: `url(${Jobboard})`,
     url: '/',
     githubUrl: '/',
-    web: true
+    web: false // Can't be hosted on GH Pages etc.
 },
 {
+    id: 6,
     name: 'Doctor Who Universe',
     imgUrl: `url(${DWU})`,
     url: '..' + process.env.PUBLIC_URL + '/old/dwu',
@@ -53,6 +59,7 @@ const Works = [{
     web: true
 },
 {
+    id: 7,
     name: 'Slam Fingers',
     imgUrl: `url(${SlamFingers})`,
     url: '/',
@@ -60,6 +67,7 @@ const Works = [{
     web: false
 },
 {
+    id: 8,
     name: 'Grand Quizz',
     imgUrl: `url(${GrandQuizz})`,
     url: '/',
@@ -67,6 +75,7 @@ const Works = [{
     web: false
 },
 {
+    id: 9,
     name: 'Arboretum',
     imgUrl: `url(${Arboretum})`,
     url: '/',

@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/LQ.png'
 import { Link } from 'react-scroll'
+import Pdf from '../assets/CV LACHET Quentin.pdf';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -31,7 +32,7 @@ const Navbar = () => {
           <Link to="work" smooth={true} duration={500}>Work</Link>
         </li>
         <li className="hover:text-orange-600 hover:border-b-2 border-orange-600 duration-250">
-          <Link to="resume" smooth={true} duration={500}>Resume</Link>
+          <a href={Pdf} target="_blank" rel="noreferrer">Resume</a>
         </li>
       </ul>
 
@@ -52,7 +53,7 @@ const Navbar = () => {
         <li className="py-6 text-4xl"><Link onClick={handleClick} to="about" smooth={true} duration={500}>About</Link></li>
         <li className="py-6 text-4xl"><Link onClick={handleClick} to="skills" smooth={true} duration={500}>Skills</Link></li>
         <li className="py-6 text-4xl"><Link onClick={handleClick} to="work" smooth={true} duration={500}>Work</Link></li>
-        <li className="py-6 text-4xl"><Link onClick={handleClick} to="resume" smooth={true} duration={500}>Resume</Link></li>
+        <li className="py-6 text-4xl"><a onClick={handleClick} href={Pdf} target="_blank" rel="noreferrer">Resume</a></li>
       </ul>
 
       {/* Social icons */}
@@ -75,7 +76,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
-              <Link className="flex justify-between items-center w-full text-gray-300" to="resume" smooth={true} duration={500}>Resume</Link>
+            <a href={Pdf} target="_blank" rel="noreferrer" className="flex justify-between items-center w-full text-gray-300">Resume</a>
               <BsFillPersonLinesFill size={30} />
           </li>
         </ul>
