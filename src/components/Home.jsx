@@ -14,17 +14,17 @@ const Home = () => {
           Junior Developer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
-          I'm focused on learning new things to improve my skills.
+          I'm focused on learning new things to improve my skills. <br/> I am experienced in developing web and desktop applications
         </p>
         <div>
-          <Link to="work" smooth={true} duration={500}>
-          <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-orange-600 hover:border-orange-600">
+          <button>
+          <Link to="work" className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-orange-600 hover:border-orange-600" smooth={true} duration={500}>
             View Work
             <span className='group-hover:rotate-90 duration-300'>
              <HiArrowNarrowRight className="ml-3" />
             </span>
-          </button>
           </Link>
+          </button>
         </div>
       </div>
     </div>

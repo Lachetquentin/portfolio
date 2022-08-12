@@ -16,8 +16,10 @@ const About = () => {
           <div className="sm:text-right text-4xl font-bold">
             <p>Hi. I'm Quentin, nice to meet you. Please take a look around.</p>
           </div>
-          <div>
-            <p>I am passionate about building things.</p>
+          <div className="text-2xl ">
+            <p>I am a 23 year old computer science student, and I am passionate about programming. <br/>
+              I'm looking to improve every day to become the best version of myself. <br/>
+              I have worked on websites as well as desktop applications.</p>
           </div>
         </div>
       </div>
