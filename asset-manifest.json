@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9bcd7028.css",
-    "main.js": "/portfolio/static/js/main.4c9be2e0.js",
+    "main.css": "/portfolio/static/css/main.708d17ff.css",
+    "main.js": "/portfolio/static/js/main.cf3d5b42.js",
     "static/media/csharp.png": "/portfolio/static/media/csharp.e095694584811ade286e.png",
+    "static/media/CV LACHET Quentin.pdf": "/portfolio/static/media/CV LACHET Quentin.327598df2764766c3ef1.pdf",
     "static/media/arboretum.jpg": "/portfolio/static/media/arboretum.7963be9100a3590f99a2.jpg",
     "static/media/php.png": "/portfolio/static/media/php.02aa9f7ae249988ead2a.png",
     "static/media/grandquizz.jpg": "/portfolio/static/media/grandquizz.e3da4c5e73a72c7f4a85.jpg",
@@ -26,11 +27,11 @@
     "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.9bcd7028.css.map": "/portfolio/static/css/main.9bcd7028.css.map",
-    "main.4c9be2e0.js.map": "/portfolio/static/js/main.4c9be2e0.js.map"
+    "main.708d17ff.css.map": "/portfolio/static/css/main.708d17ff.css.map",
+    "main.cf3d5b42.js.map": "/portfolio/static/js/main.cf3d5b42.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bcd7028.css",
-    "static/js/main.4c9be2e0.js"
+    "static/css/main.708d17ff.css",
+    "static/js/main.cf3d5b42.js"
   ]
 }
