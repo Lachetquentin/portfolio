@@ -14,55 +14,64 @@ const Works = [{
     name: 'Museo',
     imgUrl: `url(${Museo})`,
     url: '/museo',
-    githubUrl: 'https://github.com/Lachetquentin/museog4'
+    githubUrl: 'https://github.com/Lachetquentin/museog4',
+    web: false
 },
 {
     name: 'Eco Services',
     imgUrl: `url(${EcoServices})`,
     url: '/ecoservices',
-    githubUrl: '/'
+    githubUrl: '/',
+    web: true
 },
 {
     name: 'Movie Manager',
     imgUrl: `url(${MovieManager})`,
     url: '/',
-    githubUrl: '/'
+    githubUrl: '/',
+    web: true
 },
 {
     name: 'ttvRPG Bot',
     imgUrl: `url(${ttvRPGBot})`,
     url: '/',
-    githubUrl: '/'
+    githubUrl: '/',
+    web: false
 },
 {
     name: 'Job Board',
     imgUrl: `url(${Jobboard})`,
     url: '/',
-    githubUrl: '/'
+    githubUrl: '/',
+    web: true
 },
 {
     name: 'Doctor Who Universe',
     imgUrl: `url(${DWU})`,
-    url: '/',
-    githubUrl: '/'
+    url: '..' + process.env.PUBLIC_URL + '/old/dwu',
+    githubUrl: 'https://github.com/Lachetquentin/portfolio/tree/main/public/old/dwu',
+    web: true
 },
 {
     name: 'Slam Fingers',
     imgUrl: `url(${SlamFingers})`,
     url: '/',
-    githubUrl: '/'
+    githubUrl: '/',
+    web: false
 },
 {
     name: 'Grand Quizz',
     imgUrl: `url(${GrandQuizz})`,
     url: '/',
-    githubUrl: '/'
+    githubUrl: '/',
+    web: false
 },
 {
     name: 'Arboretum',
     imgUrl: `url(${Arboretum})`,
     url: '/',
-    githubUrl: '/'
+    githubUrl: '/',
+    web: false
 }]
 
 const ListOfWorks = []

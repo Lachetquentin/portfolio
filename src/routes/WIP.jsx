@@ -13,7 +13,7 @@ const WIP = () => {
                   You can still check it or you can check the older version by clicking on the button right below !
               </p>
               <div className='group container rounded-md flex justify-center items-center mx-auto'>
-                  <a href="/portfolio/old/">
+                  <a href={process.env.PUBLIC_URL + '/old'}>
                   <button className="text-center rounded-lg px-4 py-3 m-2 text-white group border-2 font-bold text-lg hover:bg-orange-600 hover:border-orange-600">
                       View old portfolio
                   </button>
