@@ -21,7 +21,7 @@ const Home = () => {
         </p>
         <div>
           <button>
-            <Link to="work" className="text-white rounded-lg items-center group border-2 px-4 py-3 my-2 flex hover:bg-orange-600 hover:border-orange-600" smooth={true} duration={500}>
+            <Link to="projects" className="text-white rounded-lg items-center group border-2 px-4 py-3 my-2 flex hover:bg-orange-600 hover:border-orange-600" smooth={true} duration={500}>
               {t('home.btnPjt')}
             <span className='group-hover:rotate-90 duration-300'>
              <HiArrowNarrowRight className="ml-3" />
