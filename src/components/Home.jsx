@@ -18,13 +18,18 @@ const Home = () => {
         </p>
         <div>
           <button>
-          <Link to="work" className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-orange-600 hover:border-orange-600" smooth={true} duration={500}>
+            <Link to="work" className="text-white rounded-lg items-center group border-2 px-4 py-3 my-2 flex hover:bg-orange-600 hover:border-orange-600" smooth={true} duration={500}>
             View Work
             <span className='group-hover:rotate-90 duration-300'>
              <HiArrowNarrowRight className="ml-3" />
             </span>
           </Link>
           </button>
+          <a href={process.env.PUBLIC_URL + '/old'}>
+            <button className="text-white rounded-lg text-center group border-2 px-4 py-3 m-2 hover:bg-orange-600 hover:border-orange-600">
+              View old portfolio
+            </button>
+          </a>
         </div>
       </div>
     </div>
