@@ -1,6 +1,6 @@
 import React from 'react'
 
-function WorkCard(props) {
+function ProjectCard(props) {
     const isWeb = props.web;
         return (
             <div key={props.id} style={{ backgroundImage: props.imgUrl }} className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -27,4 +27,4 @@ function WorkCard(props) {
         )
 }
 
-export default WorkCard
+export default ProjectCard

@@ -1,5 +1,5 @@
 import React from "react";
-import { useTranslation } from 'react-i18next';
+import { useTranslation, Trans } from 'react-i18next';
 
 const About = () => {
   const { t } = useTranslation();
@@ -20,7 +20,7 @@ const About = () => {
             <p>{t('about.intro')}</p>
           </div>
           <div className="text-2xl ">
-            <p>{t('about.desc')}</p>
+            <p><Trans i18nKey="about.desc" components={{ newLine: <br /> }} /></p>
           </div>
         </div>
       </div>

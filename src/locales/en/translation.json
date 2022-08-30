@@ -2,6 +2,32 @@
   "about": {
     "title": "About",
     "intro": "Hi. I'm Quentin, nice to meet you. Please take a look around.",
-    "desc": "I am a 23 year old computer science student, and I am passionate about programming. I'm looking to improve every day to become the best version of myself. I have worked on websites as well as desktop applications."
+    "desc": "I am a 23 year old computer science student, and I am passionate about programming. <newLine/> I'm looking to improve every day to become the best version of myself. <newLine/> I have worked on websites as well as desktop applications."
+  },
+  "home": {
+    "im": "I'm",
+    "job": "Junior Developer",
+    "desc": "I'm focused on learning new things to improve my skills. <newLine/> I am experienced in developing web and desktop applications",
+    "btnPjt": "View Projects",
+    "old": "View old portfolio"
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "resume": "Resume"
+  },
+  "skills": {
+    "title": "Skills",
+    "desc": "Here are the different technologies I used during my studies"
+  },
+  "projects": {
+    "title": "Projects",
+    "desc": "Here are the different projects I have realized during my studies"
+  },
+  "projectCard": {
+    "btnView": "View Code",
+    "btnDemo": "View Demo"
   }
 }

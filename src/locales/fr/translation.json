@@ -1,7 +1,33 @@
 {
-    "about": {
-        "title": "A propos de moi",
-        "intro": "Bonjour. Je m'appelle Quentin, enchanté. Faîtes un tour de mon portfolio !",
-        "desc": "Je suis un étudiant en informatique de 23 ans, et je suis passionné de la programmation. Je cherche à m'améliorer tout les jours. J'ai travaillé sur des site web et des applications bureau."
-    }
+  "about": {
+    "title": "A propos de moi",
+    "intro": "Bonjour. Je m'appelle Quentin, enchanté. Faîtes un tour de mon portfolio !",
+    "desc": "Je suis un étudiant en informatique de 23 ans, et je suis passionné de la programmation. <newLine/> Je cherche à m'améliorer tout les jours. <newLine/> J'ai travaillé sur des site web et des applications bureau."
+  },
+  "home": {
+    "im": "Je suis",
+    "job": "Développeur junior",
+    "desc": "Je me concentre sur l'apprentissage de nouvelles technologies pour améliorer mes compétences. J'ai de l'expérience dans le développement d'applications web et de bureau",
+    "btnPjt": "Voir mes projets",
+    "old": "Voir mon ancien portfolio"
+  },
+  "navbar": {
+    "home": "Accueil",
+    "about": "A propos de moi",
+    "skills": "Compétences",
+    "projects": "Projets",
+    "resume": "CV"
+  },
+  "skills": {
+    "title": "Compétences",
+    "desc": "Voici les différentes technologies que j'ai utilisé durant mon parcours"
+  },
+  "projects": {
+    "title": "Projets",
+    "desc": "Voici les différentes projets que j'ai réalisé durant mon parcours"
+  },
+  "projectCard": {
+    "btnView": "Voir le code",
+    "btnDemo": "Voir la demo"
+  }
 }

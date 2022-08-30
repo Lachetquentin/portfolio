@@ -8,7 +8,7 @@ import SlamFingers from '../assets/SlamFingers/slamfingers.jpg'
 import GrandQuizz from '../assets/GrandQuizz/grandquizz.jpg'
 //import Arboretum from '../assets/Arboretum/arboretum.jpg'
 
-export const Works = [{
+export const Projects = [{
     id: 1,
     name: 'Museo',
     imgUrl: `url(${Museo})`,
