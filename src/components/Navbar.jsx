@@ -4,10 +4,26 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/LQ.png'
 import { Link } from 'react-scroll'
 import Pdf from '../assets/CV LACHET Quentin.pdf';
+import Select from 'react-select';
+import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
+
+const options = [
+  { value: 'fr', label: '🇫🇷 Français' },
+  { value: 'en', label: '🇺🇸 English' },
+]
+
+const [t, i18n] = useTranslation();
+
+const changebySelectedLanguage = (e) => {
+  i18n.changeLanguage(e.value); 
+};
+
+const getLanguage = () => i18next.language;
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
@@ -33,6 +49,12 @@ const Navbar = () => {
         </li>
         <li className="hover:text-orange-600 hover:border-b-2 border-orange-600 duration-250">
           <a href={Pdf} target="_blank" rel="noreferrer">Resume</a>
+        </li>
+        <li>
+          <Select options={options} defaultValue={
+            options.filter(option =>
+              option.value === getLanguage())
+          } onChange={changebySelectedLanguage}/>
         </li>
       </ul>
 
