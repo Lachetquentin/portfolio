@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.797ae3fe.css",
-    "main.js": "/portfolio/static/js/main.7df564f1.js",
+    "main.css": "/portfolio/static/css/main.8a06b4e9.css",
+    "main.js": "/portfolio/static/js/main.1a58c3de.js",
     "static/media/csharp.png": "/portfolio/static/media/csharp.e095694584811ade286e.png",
     "static/media/php.png": "/portfolio/static/media/php.02aa9f7ae249988ead2a.png",
     "static/media/CV LACHET Quentin.pdf": "/portfolio/static/media/CV LACHET Quentin.13fbf2c48c22a0af22dc.pdf",
@@ -26,11 +26,11 @@
     "static/media/css.png": "/portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio/index.html",
-    "main.797ae3fe.css.map": "/portfolio/static/css/main.797ae3fe.css.map",
-    "main.7df564f1.js.map": "/portfolio/static/js/main.7df564f1.js.map"
+    "main.8a06b4e9.css.map": "/portfolio/static/css/main.8a06b4e9.css.map",
+    "main.1a58c3de.js.map": "/portfolio/static/js/main.1a58c3de.js.map"
   },
   "entrypoints": [
-    "static/css/main.797ae3fe.css",
-    "static/js/main.7df564f1.js"
+    "static/css/main.8a06b4e9.css",
+    "static/js/main.1a58c3de.js"
   ]
 }
