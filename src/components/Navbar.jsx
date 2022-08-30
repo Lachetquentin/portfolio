@@ -12,24 +12,28 @@ const Navbar = () => {
   const [nav, setNav] = useState(false)
   const handleClick = () => setNav(!nav)
 
-const options = [
-  { value: 'fr', label: '🇫🇷 Français' },
-  { value: 'en', label: '🇺🇸 English' },
-]
+  const flagemojiToPNG = (flag) => {
+    return (<img className="flex" src={`https://flagcdn.com/24x18/${flag}.png`} alt='flag' />)
+  }
 
-const [t, i18n] = useTranslation();
+  const options = [
+    { value: 'fr', label: 'Français', flag: 'fr' },
+    { value: 'en', label: 'English', flag: 'us' },
+  ]
 
-const changebySelectedLanguage = (e) => {
-  i18n.changeLanguage(e.value); 
-};
+  const [t, i18n] = useTranslation();
 
-const getLanguage = () => i18next.language;
+  const changebySelectedLanguage = (e) => {
+    i18n.changeLanguage(e.value);
+  };
+
+  const getLanguage = () => i18next.language;
 
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
       <div>
         <Link to="home" smooth={true} duration={500}>
-        <img src={Logo} alt="Logo" style={{ width: "50px" }} />
+          <img src={Logo} alt="Logo" style={{ width: "50px" }} />
         </Link>
       </div>
 
@@ -51,10 +55,22 @@ const getLanguage = () => i18next.language;
           <a href={Pdf} target="_blank" rel="noreferrer">{t('navbar.resume')}</a>
         </li>
         <li>
-          <Select options={options} defaultValue={
+          <Select
+          options={options} 
+          defaultValue={
             options.filter(option =>
               option.value === getLanguage())
-          } onChange={changebySelectedLanguage}/>
+          } 
+          onChange={changebySelectedLanguage} 
+          formatOptionLabel={option => (
+            <>
+            <div className='flex'>   
+                  {flagemojiToPNG(option.flag)}
+                  <span className='ml-2'>{option.label}</span>
+            </div>
+            </>
+            )} 
+          />
         </li>
       </ul>
 
@@ -99,7 +115,7 @@ const getLanguage = () => i18next.language;
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a href={Pdf} target="_blank" rel="noreferrer" className="flex justify-between items-center w-full text-gray-300">{t('navbar.resume')}</a>
-              <BsFillPersonLinesFill size={30} />
+            <BsFillPersonLinesFill size={30} />
           </li>
         </ul>
       </div>
